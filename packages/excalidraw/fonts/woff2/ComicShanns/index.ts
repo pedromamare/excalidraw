@@ -67,7 +67,7 @@ SOFTWARE.
 preferredFamily: Comic Shanns Mono
  */
 
-export const ComicFontFaces: ExcalidrawFontFaceDescriptor[] = [
+export const ComicShannsFontFaces: ExcalidrawFontFaceDescriptor[] = [
   {
     uri: _0,
     descriptors: {

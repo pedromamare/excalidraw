@@ -21,7 +21,7 @@ import {
   type IExcalidrawFontFace,
 } from "./ExcalidrawFontFace";
 import { CascadiaFontFaces } from "./woff2/Cascadia";
-import { ComicFontFaces } from "./woff2/Comic";
+import { ComicShannsFontFaces } from "./woff2/ComicShanns";
 import { ExcalifontFontFaces } from "./woff2/Excalifont";
 import { HelveticaFontFaces } from "./woff2/Helvetica";
 import { LiberationFontFaces } from "./woff2/Liberation";
@@ -229,7 +229,7 @@ export class Fonts {
     };
 
     init("Cascadia", ...CascadiaFontFaces);
-    init("Comic Shanns", ...ComicFontFaces);
+    init("Comic Shanns", ...ComicShannsFontFaces);
     init("Excalifont", ...ExcalifontFontFaces);
     // keeping for backwards compatibility reasons, uses system font (Helvetica on MacOS, Arial on Win)
     init("Helvetica", ...HelveticaFontFaces);
