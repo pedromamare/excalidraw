@@ -24,7 +24,7 @@ module.exports.woff2BrowserPlugin = () => {
 
       @font-face {
         font-family: "Assistant";
-        src: url(${OSS_FONTS_CDN}Assistant-Regular-DVxZuzxb.woff2)
+        src: url(${OSS_FONTS_CDN}Assistant-Regular.woff2)
             format("woff2"),
           url(./Assistant-Regular.woff2) format("woff2");
         font-weight: 400;
@@ -34,7 +34,7 @@ module.exports.woff2BrowserPlugin = () => {
 
       @font-face {
         font-family: "Assistant";
-        src: url(${OSS_FONTS_CDN}Assistant-Medium-DrcxCXg3.woff2)
+        src: url(${OSS_FONTS_CDN}Assistant-Medium.woff2)
             format("woff2"),
           url(./Assistant-Medium.woff2) format("woff2");
         font-weight: 500;
@@ -44,7 +44,7 @@ module.exports.woff2BrowserPlugin = () => {
 
       @font-face {
         font-family: "Assistant";
-        src: url(${OSS_FONTS_CDN}Assistant-SemiBold-SCI4bEL9.woff2)
+        src: url(${OSS_FONTS_CDN}Assistant-SemiBold.woff2)
             format("woff2"),
           url(./Assistant-SemiBold.woff2) format("woff2");
         font-weight: 600;
@@ -54,7 +54,7 @@ module.exports.woff2BrowserPlugin = () => {
 
       @font-face {
         font-family: "Assistant";
-        src: url(${OSS_FONTS_CDN}Assistant-Bold-gm-uSS1B.woff2)
+        src: url(${OSS_FONTS_CDN}Assistant-Bold.woff2)
             format("woff2"),
           url(./Assistant-Bold.woff2) format("woff2");
         font-weight: 700;
@@ -77,7 +77,7 @@ module.exports.woff2BrowserPlugin = () => {
       <!-- Preload all default fonts and Virgil for backwards compatibility to avoid swap on init -->
       <link
         rel="preload"
-        href="${OSS_FONTS_CDN}Excalifont-Regular-C9eKQy_N.woff2"
+        href="${OSS_FONTS_CDN}Excalifont-Regular-a88b72a24fb54c9f94e3b5fdaa7481c9.woff2"
         as="font"
         type="font/woff2"
         crossorigin="anonymous"
@@ -85,7 +85,7 @@ module.exports.woff2BrowserPlugin = () => {
       <!-- For Nunito only preload the latin range, which should be good enough for now -->
       <link
         rel="preload"
-        href="${OSS_FONTS_CDN}Nunito-Regular-XRXI3I6Li01BKofiOc5wtlZ2di8HDIkhdTQ3j6zbXWjgeg-DqUjjPte.woff2"
+        href="${OSS_FONTS_CDN}Nunito-Regular-XRXI3I6Li01BKofiOc5wtlZ2di8HDIkhdTQ3j6zbXWjgeg.woff2"
         as="font"
         type="font/woff2"
         crossorigin="anonymous"
@@ -99,7 +99,7 @@ module.exports.woff2BrowserPlugin = () => {
       />
       <link
         rel="preload"
-        href="${OSS_FONTS_CDN}Virgil-Regular-hO16qHwV.woff2"
+        href="${OSS_FONTS_CDN}Virgil-Regular.woff2"
         as="font"
         type="font/woff2"
         crossorigin="anonymous"
