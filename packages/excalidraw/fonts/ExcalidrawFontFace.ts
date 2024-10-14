@@ -34,6 +34,7 @@ export class ExcalidrawFontFace implements IExcalidrawFontFace {
       display: "swap",
       style: "normal",
       weight: "400",
+      unicodeRange: "U+0000-FFFF",
       ...descriptors,
     });
   }
